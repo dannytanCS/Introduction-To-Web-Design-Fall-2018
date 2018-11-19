@@ -1,0 +1,30 @@
+a:link {
+  color: green;
+}
+
+a:hover {
+  color: blue;
+}
+
+a:active {
+  color: yellow;
+}
+
+a:visited {
+  color: red;
+}
+
+#background {
+  background-image: url("images/background.jpg");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.foodImage {
+  height: 600px;
+  width: 600px;
+  display: block;
+  margin: 0 auto;
+}

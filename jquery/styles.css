@@ -1,0 +1,95 @@
+body {
+  padding: 0;
+  margin: 0;
+  font-family: Arial;
+  font-size: 17px;
+}
+
+.heading {
+  font-size: 20px;
+  font-style: oblique;
+  font-weight: bold;
+}
+
+#title {
+  font-size: 35px;
+  margin: 0 20px;
+  color: white;
+  bottom: 0;
+  position: absolute;
+  font-style: oblique;
+}
+
+#header {
+  background-image: url(images/header.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100vw;
+  height: 30vh;
+  background-position: center center;
+  position: relative;
+}
+
+#picContainer {
+  float: left;
+  width: 100%;
+  margin-top: 1em;
+}
+
+#picContainer>.row>.col {
+  margin-left: 20px;
+  margin-bottom: 20px;
+  border: 2px solid;
+  max-width: 300px;
+  max-height: 400px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.pictureSelection {
+  height: 100%;
+  width: 100%;
+  margin: 2em;
+  float: left;
+}
+
+.pictureImage {
+  margin: 10px;
+  width: 250px;
+  height: 200px;
+}
+
+.pictureText {
+  word-wrap: break-word;
+}
+
+#searchContainer {
+  margin-top: 1em;
+  width: 100%;
+}
+
+#searchBox {
+  width: 100%;
+}
+
+@media (min-width: 600px) {
+  .pictureSelection {
+    height: 200px;
+    width: 200px;
+  }
+  #picContainer {
+    width: 80%;
+  }
+  .pictureSelection {
+    float: none;
+    display: inline-block;
+  }
+  #searchContainer {
+    float: right;
+  }
+  #searchContainer {
+    width: 20%;
+    float: right;
+  }
+}

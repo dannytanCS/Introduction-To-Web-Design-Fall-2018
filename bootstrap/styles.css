@@ -1,0 +1,83 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: Arial;
+    font-size: 17px;
+}
+
+
+#title{
+  font-size: 35px;
+  margin: 0 20px;
+  color: white;
+  bottom: 0;
+  position: absolute;
+}
+
+#header {
+  background-image: url(header.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100vw;
+  height: 30vh;
+  background-position: center center;
+  position: relative;
+}
+
+
+#picContainer {
+  float: left;
+  width: 100%;
+  margin-top: 1em;
+}
+
+.pictureSelection {
+  height: 100%;
+  width: 100%;
+  margin: 2em;
+  float: left;
+}
+
+.pictureImage{
+  max-width: 250px;
+  max-height: 250px;
+}
+
+.pictureText {
+  word-wrap: break-word;
+}
+
+#searchContainer {
+  margin-top: 1em;
+  width: 100%;
+}
+
+#searchBox {
+  width: 100%;
+}
+
+
+@media (min-width: 600px) {
+  .pictureSelection {
+    height: 200px;
+    width: 200px;
+  }
+
+  #picContainer {
+    width: 80%;
+  }
+
+  .pictureSelection {
+    float: none;
+    display:inline-block;
+  }
+
+  #searchContainer {
+    float:right;
+  }
+
+  #searchContainer {
+    width: 20%;
+    float: right;
+  }
+}
